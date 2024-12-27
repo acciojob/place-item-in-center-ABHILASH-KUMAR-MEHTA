@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+/* Holder styling */
+.holder {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers the item horizontally */
+  align-items: center; /* Centers the item vertically */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Optional: Adds a light background for contrast */
+}
+
+/* Item-1 styling */
+.item-1 {
+  width: 100px; /* Sets item width */
+  height: 100px; /* Sets item height */
+  background-color: red; /* Red background for the item */
+  color: white; /* White text for visibility */
+  display: flex; /* Ensures text is aligned inside the box */
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  font-size: 14px; /* Optional: Text size adjustment */
+  text-align: center; /* Ensures text aligns in the center */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
